@@ -1,0 +1,31 @@
+.about-area{
+    padding-top: 5px;
+}
+body{
+    background: ;
+}
+
+.img::before{
+    
+}
+
+.about-img::before{
+    position: absolute;
+    content: "";
+    right: -30px;
+    top: 30px;
+    border: 10px solid rgba(red, green, blue, alpha);
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-text{
+    padding-top: 20%;
+}
+.about-text h2{
+    color: red;
+    font-family: lobster;
+    font-size: 50%;
+}
