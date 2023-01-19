@@ -496,7 +496,7 @@ function myFunction() {
         function copyText(el) {
             var content = jQuery(el).siblings('div.copy-content').html()
             var temp = jQuery("<textarea>");
-            jQuery("body").append(temp);
+            jQuery('').append(temp);
             temp.val(content.replace(/<br ?\/?>/g, "\n")).select();
             document.execCommand("copy");
             temp.remove();
